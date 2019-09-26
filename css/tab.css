@@ -1,0 +1,96 @@
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.nav{
+    width: 100%    ;
+}
+/*.nav-item{*/
+/*    width: 100% !important;*/
+/*}*/
+/*.list_wrap ul li {*/
+/*    width:10% !important;*/
+/*    padding-left: 0px !important;*/
+/*    background-color: #0064FF !important;*/
+/*}*/
+/*.list_wrap ul li a{*/
+/*    color: #FFFFFF;*/
+/*}*/
+/*.nav-link{*/
+/*    width: 100px !important;*/
+/*}*/
+/*.nav-item{*/
+/*    width: 100px !important;*/
+/*}*/
+.list_wrap .group-tabs .nav .nav-item{
+    margin-bottom: 0px;
+    padding-left: 0px;
+    width: 120px;
+    /*background-color: #041230;*/
+}
+.list_wrap .group-tabs .nav .nav-item .nav-link{
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 120px;
+    /*color: white;*/
+}
+.list_wrap .group-tabs .nav .nav-item .active{
+    /*color: black;*/
+}
+    /*.list_wrap .group-tabs .nav .nav-item .nav-link :hover{*/
+    /*    background-color: #0064FF;*/
+    /*    color: #FFFFFF;*/
+    /*}*/
+.tab-content .container .nav .nav-item {
+    margin-bottom: 0px;
+    padding-left: 0px;
+    width: 140px;
+    /*background-color: #041230;*/
+}
+.tab-content .container .nav .nav-item .nav-link{
+    width: 140px;
+
+}
+.tab-content .container .nav .nav-item .active{
+    color: black;
+}
+.fade{
+    height: 400px;
+    padding-left: 0;
+    user-focus-pointer: true;
+}
+#home1{
+    padding-left: 0;
+}
