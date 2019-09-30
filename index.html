@@ -27,6 +27,7 @@
     <link rel="stylesheet" type="text/css" href="css/plugins.css"/>
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="stylesheet" href="css/tab.css">
+    <link rel="stylesheet" href="lib/fontawesome-free-5.10.2-web/css/all.css">
     <!--[if lt IE 9]>
     <script type="text/javascript" src="js/modernizr.custom.js"></script> <![endif]-->
     <!-- /STYLES -->
@@ -45,11 +46,11 @@
     </div>
 
     <!-- PRELOADER -->
-    	<div class="arlo_tm_preloader">
-    		<div class="spinner_wrap">
-    			<div class="spinner"></div>
-    		</div>
-    	</div>
+    <div class="arlo_tm_preloader">
+        <div class="spinner_wrap">
+            <div class="spinner"></div>
+        </div>
+    </div>
     <!-- /PRELOADER -->
 
     <!-- MOBILE MENU -->
@@ -269,31 +270,114 @@
                                                 <ul class=" nav nav-tabs" role="tablist">
                                                     <li class="nav-item items">
                                                         <a class="nav-link active" data-toggle="tab"
-                                                           href="#requirement">Requirement</a>
+                                                           href="#requirement">
+                                                            Requirement</a>
                                                     </li>
 
                                                     <li class="nav-item items">
-                                                        <a class="nav-link" data-toggle="tab" href="#design">Design</a>
+                                                        <a class="nav-link" data-toggle="tab" href="#design">
+                                                            Design</a>
                                                     </li>
 
                                                     <li class="nav-item">
-                                                        <a class="nav-link items" data-toggle="tab" href="#implement">Implement</a>
+                                                        <a class="nav-link items" data-toggle="tab" href="#implement">
+                                                            Implement</a>
                                                     </li>
                                                 </ul>
                                                 <div class="tab-content">
                                                     <div id="requirement" class="container tab-pane fade active show">
                                                         <div class="bound">
-                                                        <p>Chọn 1 đối tượng bất kỳ trong thế giới thực, vídụ như sinh
-                                                            viên, môn học, giảng viên,… để thiết kế trên phần mềm một
-                                                            chức năng trên web đểthêm, sửa, xóa,tìmkiếm cho đối tượng
-                                                            đó.</p>
+                                                            <h3>1. Yêu cầu</h3>
+                                                            <p class="contents">Chọn 1 đối tượng bất kỳ trong thế giới
+                                                                thực, vídụ như sinh viên, môn học, giảng viên,… đểt hiết
+                                                                kế trên phần mềm một chức năng trên web đểt hêm, sửa,
+                                                                xóa,tìm kiếm cho đối tượng đó</p>
+                                                            <h3>2. Upload tất cả lên Azure/github trong menu Lab1 theo
+                                                                thứ tự: </h3>
+                                                            <div class="rqcontainer">
+                                                                <ul class="rqul">
+                                                                    <li class="rqli">
+                                                                        <p><strong>Tab Yêu cầu:</strong> copy lại nội
+                                                                            dung của phần 1 vào đây (trình bày cho đẹp).
+                                                                        </p>
+                                                                    </li>
+                                                                    <li class="rqli">
+                                                                        <p><strong>Tab Thiết kế:</strong> để link tới
+                                                                            các file sau đây:</p>
+                                                                        <ul class="abc">
+                                                                            <li class="bca"><p>Thiết kế trên giấy (chụp
+                                                                                lại ảnh).</p></li>
+                                                                            <li class="bca"><p>Thiết kế trên phần mềm
+                                                                                thiết kế.</p></li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li class="rqli">
+                                                                        <p><strong>Tab Hiện thực:</strong> chuyển tất cả
+                                                                            thiết kế ở trên ở trên sang html.</p>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                     <div id="design" class="container tab-pane fade">
-                                                        <h3>Design</h3>
-                                                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                                            laboris nisi
-                                                            ut aliquip ex ea commodo consequat.</p>
+                                                        <h3>1. Thiết kế trên giấy.</h3>
+
+                                                        <h3>2. Thiết kế trên Figma.</h3>
+                                                        <div class="img">
+                                                            <div class="content1">
+                                                                <div class="img">
+                                                                    <h4> Add student</h4>
+                                                                    <img src="lab/addstudent.PNG" width="600px"
+                                                                         height="300px">
+                                                                </div>
+                                                                <div class="icondownload">
+                                                                    <a download="addstudent.PNG"
+                                                                       href="lab/addstudent.PNG" title="ImageName">
+                                                                        <i class="fas fa-download"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="content1">
+                                                                <div class="img">
+                                                                    <h4> Edit profile</h4>
+                                                                    <img src="lab/editProfile.PNG" width="600px"
+                                                                         height="300px">
+                                                                </div>
+                                                                <div class="icondownload">
+                                                                    <a download="editProfile.PNG"
+                                                                       href="lab/editProfile.PNG" title="ImageName">
+                                                                        <i class="fas fa-download"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="content1">
+                                                                <div class="img">
+                                                                    <h4> Delete Student</h4>
+                                                                    <img src="lab/deletestudent.PNG" width="600px"
+                                                                         height="300px">
+                                                                </div>
+                                                                <div class="icondownload">
+                                                                    <a download="deletestudent.PNG"
+                                                                       href="lab/deletestudent.PNG" title="ImageName">
+                                                                        <i class="fas fa-download"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="content1">
+                                                                <div class="img">
+                                                                    <h4> Search student</h4>
+                                                                    <img src="lab/searchStudent.PNG" width="600px"
+                                                                         height="300px">
+                                                                </div>
+                                                                <div class="icondownload">
+                                                                    <a download="searchStudent.PNG"
+                                                                       href="lab/searchStudent.PNG" title="ImageName">
+                                                                        <i class="fas fa-download"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
                                                     </div>
                                                     <div id="implement" class="container tab-pane fade">
                                                         <h3>Implement</h3>
@@ -324,49 +408,60 @@
                                                     </li>
                                                 </ul>
                                                 <div class="tab-content">
-                                                    <div id="requirementweek2" class="container tab-pane fade active show">
+                                                    <div id="requirementweek2"
+                                                         class="container tab-pane fade active show">
                                                         <div class="bound">
-                                                        <h3>1. Yêu cầu</h3>
-                                                        <p class="contents">Chọn 1 đối tượng bất kỳ trong thế giới thực, vídụ như sinh viên, môn học, giảng viên,… đểt hiết kế trên phần mềm một chức năng trên web đểt hêm, sửa, xóa,tìm kiếm cho đối tượng đó</p>
-                                                        <h3>2. Upload tất cả lên Azure/github trong menu Lab1 theo thứ tự: </h3>
-                                                        <div class="rqcontainer">
-                                                            <ul class="rqul">
-                                                                <li class="rqli">
-                                                                    <p><strong>Tab Yêu cầu:</strong> copy lại nội dung của phần 1 vào đây (trình bày cho đẹp)</p>
-                                                                </li>
-                                                                <li class="rqli">
-                                                                    <p><strong>Tab Thiết kế:</strong> để link tới các file sau đây:</p>
-                                                                    <ul class="abc">
-                                                                        <li class="bca"><p>Thiết kế trên giấy (chụp lại ảnh)</p></li>
-                                                                        <li class="bca"><p>Thiết kế trên phần mềm thiết kế</p></li>
-                                                                    </ul>
-                                                                </li>
-                                                                <li class="rqli">
-                                                                    <p><strong>Tab Hiện thực:</strong> chuyển tất cả thiết kế ở trên ở trên sang html</p>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
+                                                            <h3>1. Yêu cầu</h3>
+                                                            <p class="contents">Chọn 1 đối tượng bất kỳ trong thế giới
+                                                                thực, vídụ như sinh viên, môn học, giảng viên,… đểt hiết
+                                                                kế trên phần mềm một chức năng trên web đểt hêm, sửa,
+                                                                xóa,tìm kiếm cho đối tượng đó</p>
+                                                            <h3>2. Upload tất cả lên Azure/github trong menu Lab1 theo
+                                                                thứ tự: </h3>
+                                                            <div class="rqcontainer">
+                                                                <ul class="rqul">
+                                                                    <li class="rqli">
+                                                                        <p><strong>Tab Yêu cầu:</strong> copy lại nội
+                                                                            dung của phần 1 vào đây (trình bày cho đẹp)
+                                                                        </p>
+                                                                    </li>
+                                                                    <li class="rqli">
+                                                                        <p><strong>Tab Thiết kế:</strong> để link tới
+                                                                            các file sau đây:</p>
+                                                                        <ul class="abc">
+                                                                            <li class="bca"><p>Thiết kế trên giấy (chụp
+                                                                                lại ảnh)</p></li>
+                                                                            <li class="bca"><p>Thiết kế trên phần mềm
+                                                                                thiết kế</p></li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li class="rqli">
+                                                                        <p><strong>Tab Hiện thực:</strong> chuyển tất cả
+                                                                            thiết kế ở trên ở trên sang html</p>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
                                                         </div>
                                                     </div>
 
                                                     <div id="designweek2" class="container tab-pane fade">
                                                         <div class="bound">
-                                                        <h3>Design</h3>
-                                                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                                            laboris nisi
-                                                            ut aliquip ex ea commodo consequat.</p>
+                                                            <h3>Design</h3>
+                                                            <p>Ut enim ad minim veniam, quis nostrud exercitation
+                                                                ullamco
+                                                                laboris nisi
+                                                                ut aliquip ex ea commodo consequat.</p>
                                                         </div>
-                                                        </div>
+                                                    </div>
                                                     <div id="implementweek2" class="container tab-pane fade">
                                                         <div class="bound">
-                                                        <h3>Implement</h3>
-                                                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                                            laboris nisi
-                                                            ut aliquip ex ea commodo consequat.</p>
+                                                            <h3>Implement</h3>
+                                                            <p>Ut enim ad minim veniam, quis nostrud exercitation
+                                                                ullamco
+                                                                laboris nisi
+                                                                ut aliquip ex ea commodo consequat.</p>
                                                         </div>
-                                                        </div>
-
-
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -392,28 +487,33 @@
                                                     <div id="requirementweek3"
                                                          class="container tab-pane fade active show">
                                                         <div class="bound">
-                                                        <h3>Requirement</h3>
-                                                        <p>Chọn 1 đối tượng bất kỳ trong thế giới thực, vídụ như sinh
-                                                            viên, môn học, giảng viên,… để thiết kế trên phần mềm một
-                                                            chức năng trên web đểthêm, sửa, xóa,tìmkiếm cho đối tượng
-                                                            đó.</p>
+                                                            <h3>Requirement</h3>
+                                                            <p>Chọn 1 đối tượng bất kỳ trong thế giới thực, vídụ như
+                                                                sinh
+                                                                viên, môn học, giảng viên,… để thiết kế trên phần mềm
+                                                                một
+                                                                chức năng trên web đểthêm, sửa, xóa,tìmkiếm cho đối
+                                                                tượng
+                                                                đó.</p>
                                                         </div>
                                                     </div>
 
                                                     <div id="designweek3" class="container tab-pane fade">
                                                         <div class="bound">
-                                                        <h3>Design</h3>
-                                                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                                            laboris nisi
-                                                            ut aliquip ex ea commodo consequat.</p>
+                                                            <h3>Design</h3>
+                                                            <p>Ut enim ad minim veniam, quis nostrud exercitation
+                                                                ullamco
+                                                                laboris nisi
+                                                                ut aliquip ex ea commodo consequat.</p>
                                                         </div>
-                                                        </div>
+                                                    </div>
                                                     <div id="implementweek3" class="container tab-pane fade">
                                                         <div class="bound">
-                                                        <h3>Implement</h3>
-                                                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                                            laboris nisi
-                                                            ut aliquip ex ea commodo consequat.</p>
+                                                            <h3>Implement</h3>
+                                                            <p>Ut enim ad minim veniam, quis nostrud exercitation
+                                                                ullamco
+                                                                laboris nisi
+                                                                ut aliquip ex ea commodo consequat.</p>
                                                         </div>
                                                     </div>
 
