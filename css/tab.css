@@ -91,9 +91,10 @@
 }
 .bound{
     padding-left: 30px;
+    margin-top: 10px;
 }
 .fade{
-    height: 400px;
+    height: auto;
     padding-left: 0px;
     padding-right: 0;
 }
@@ -110,9 +111,14 @@
      justify-content: center;
     padding-left: 50px;
  }
-rqcontainer .rqul li{
+.rqcontainer .rqul li{
     list-style-type: circle;
 }
+.rqcontainer .rqul .rqli{
+    width: max-content !important;
+    margin-bottom: 10px !important;
+}
+
 .rqcontainer .rqul li p{
     width: max-content;
 }
@@ -125,6 +131,7 @@ rqcontainer .rqul li{
 .bca{
     width: 100% !important;
     list-style-type: circle;
+    margin-bottom: 10px !important;
 }
 .contents{
     padding-left: 50px  ;
