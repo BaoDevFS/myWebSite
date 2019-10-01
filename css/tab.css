@@ -152,3 +152,15 @@
 .icondownload{
     margin: auto;
 }
+.github{
+    margin: 20px 20px;
+}
+.gh{
+    display: flex;
+    flex-direction: column;
+}
+#implement p{
+    font-size: 20px;
+    font-family: Tahoma;
+
+}
