@@ -164,3 +164,9 @@
     font-family: Tahoma;
 
 }
+.all{
+    width: 100px;
+    height: 40px;
+    background-color: #0064FF;
+    color: #FFFFFF;
+}

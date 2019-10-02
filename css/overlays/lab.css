@@ -1,0 +1,71 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Tahoma;
+    font-size: 20px;
+}
+.container{
+    width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #CCCCCC;
+    padding: 20px;
+}
+ .name,.phone, .birthday,.mail,.address,.gender,.id{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*.phone, .birthday,.address{*/
+/*    justify-content: start;*/
+/*}*/
+
+.title{
+    width: 150px;
+}
+/*.ipphone ,.ipbirthday,.ipaddress{*/
+/*    margin-left: 83px;*/
+/*}*/
+.btn{
+    background-color: #22F500;
+
+    border: 1px solid #22F500;
+    border-radius: 5px;
+    color: #FFFFFF;
+    padding: 5px 15px 5px 15px  ;
+}
+.slyear{
+    margin-left: 83px;
+    height: 26px;
+    margin-top: 18px;
+}
+.rq{
+    font-size: 15px;
+    margin-left: 80px;
+}
+.br{
+    background-color: #EDEDED;
+    width: 100%;
+    height: 3px;
+}
+
+.titles{
+    width: 250px;
+    padding:10px 20px 10px 20px;
+}
+.containers{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #CCCCCC;
+    padding: 20px;
+}
+.tr{
+    margin: 0px 10px 0px 10px;
+}
