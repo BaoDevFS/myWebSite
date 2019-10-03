@@ -170,3 +170,6 @@
     background-color: #0064FF;
     color: #FFFFFF;
 }
+.hiden{
+    display: none!important;
+}
