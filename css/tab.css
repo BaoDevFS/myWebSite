@@ -173,3 +173,11 @@
 .hiden{
     display: none!important;
 }
+.thumb{
+    width: 800px;
+    height: 600px;
+    background-image:none ;
+    background-position: center center;
+    background-size: cover;
+
+}
