@@ -179,5 +179,16 @@
     background-image:none ;
     background-position: center center;
     background-size: cover;
+}
+.imgsenario{
+    width: 600px;
+    height: 500px;
+    background-image: url(../lab/senario.PNG);
 
+    background-repeat: round;
+}
+.imgbyphone{
+    width: 500px;
+    height: 500px;
+    background-image: url(../lab/byphone.PNG);
 }
