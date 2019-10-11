@@ -76,6 +76,7 @@ body{
     flex-direction: column;
     justify-content: center;
     margin: auto;
+    font-size: 15px;
 }
 .senariocontent{
     display: flex;
@@ -90,6 +91,7 @@ body{
 .price p{
    text-align: center;
     align-items: center;
+    padding-top: 25px;
 }
 .imgphone{
 
@@ -100,6 +102,8 @@ body{
     width: 100%;
     height: 80px;
     background: red;
+    border: 0px solid;
+    border-radius: 5px;
 }
 .pickcolor{
     display: flex;
@@ -116,4 +120,8 @@ body{
     width: 50px;
     height: 20px;
     background: black;
+}
+.tab-prop{
+    margin-left: 50px;
+    margin-top: 10px;
 }
