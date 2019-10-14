@@ -192,3 +192,12 @@
     height: 500px;
     background-image: url(../lab/byphone.PNG);
 }
+.imgbyphonepheet{
+    width: 600px;
+    height: 600px;
+
+    background-image: url(../lab/byphonepheet.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
