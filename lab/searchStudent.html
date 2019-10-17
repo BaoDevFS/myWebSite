@@ -42,14 +42,14 @@
         <tbody>
         <tr>
             <th scope="row">1</th>
-            <td>17130010</td>
-            <td>Nguyễn Như Bảo</td>
-            <td>0354545654</td>
+            <td>17130075</td>
+            <td>Cao Trung Vĩnh</td>
+            <td>0346546548</td>
             <td>male</td>
             <td>Thủ Đức</td>
             <td><div>
-                <button class="btn"><i class="fas fa-user-edit"></i></button>
-                <button class="btn"><i class="fas fa-trash-alt"></i></button>
+                <button class="btn" onclick="clickedit()"><i class="fas fa-user-edit"></i></button>
+                <button class="btn" onclick="clickdel()"><i class="fas fa-trash-alt"></i></button>
             </div></td>
         </tr>
         <tr>
@@ -60,24 +60,33 @@
             <td>male</td>
             <td>Thủ Đức</td>
             <td><div>
-                <button class="btn" ><i class="fas fa-user-edit"></i></button>
-                <button class="btn"><i class="fas fa-trash-alt"></i></button>
+                <button class="btn" onclick="clickedit()"><i class="fas fa-user-edit"></i></button>
+                <button class="btn" onclick="clickdel()"><i class="fas fa-trash-alt"></i></button>
             </div></td>
         </tr>
         <tr>
             <th scope="row">3</th>
-            <td>17130010</td>
-            <td>Nguyễn Như Bảo</td>
-            <td>0354545654</td>
-            <td>male</td>
+            <td>17138900</td>
+            <td>Võ Anh Huy</td>
+            <td>0346545665</td>
+            <td>female</td>
             <td>Thủ Đức</td>
             <td><div>
-               <button class="btn"><i class="fas fa-user-edit"></i></button>
-                <button class="btn"><i class="fas fa-trash-alt"></i></button>
+               <button class="btn" onclick="clickedit()"><i class="fas fa-user-edit"></i></button>
+                <button class="btn" onclick="clickdel()"><i class="fas fa-trash-alt"></i></button>
             </div></td>
         </tr>
         </tbody>
     </table>
 </div>
+<script>
+    function clickdel(){
+        alert("Bạn muốn xóa!")
+    }
+    function clickedit(){
+        alert("Bạn muốn chỉnh sửa!")
+    }
+
+</script>
 </body>
 </html>

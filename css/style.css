@@ -516,7 +516,7 @@ img.svg{
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
-.arlo_tm_title_holder.contact{padding-bottom: 93px;}
+.arlo_tm_title_holder.contact{padding-bottom: 50px;}
 .arlo_tm_title_holder:before{
 	position: absolute;
 	content: "";
