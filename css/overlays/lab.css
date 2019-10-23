@@ -77,6 +77,7 @@ body{
     justify-content: center;
     margin: auto;
     font-size: 15px;
+    border: 1px solid #EDEDED;
 }
 .senariocontent{
     display: flex;
@@ -87,6 +88,7 @@ body{
     width: 100%;
     height: 80px;
     background: #ff4f65;
+    border-radius: 5px;
 }
 .price p{
    text-align: center;
@@ -94,9 +96,10 @@ body{
     padding-top: 25px;
 }
 .imgphone{
-
     /*background-image: url("../../img/201909280944242748_A9.png;trim.png");*/
     background-repeat: no-repeat;
+    border: 2px solid #EEEEEE;
+    margin-top: 5px;
 }
 .btndathang{
     width: 100%;
@@ -111,6 +114,9 @@ body{
     justify-content: space-around;
     align-items: center;
 }
+.blue,.black{
+    border-radius: 10px;
+}
 .black{
     width: 50px;
     height: 20px;
@@ -124,4 +130,44 @@ body{
 .tab-prop{
     margin-left: 50px;
     margin-top: 10px;
+}
+.sale{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    padding-left: 15px;
+    margin-top: 10px;
+    border: 1px solid red;
+}
+.btnorder,.detailprice{
+    padding: 10px;
+}
+.detail{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #EEEEEE;
+}
+.line{
+    width: 100%;
+    height: 3px;
+    background-color: #EEEEEE;
+}
+.phonename{
+    margin: 8px;
+}
+.promotion_header {
+    background: #e11b1e;
+    border-radius: 13px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    width: 103px;
+    top: -13px;
+    left: 10px;
+    vertical-align: middle;
+    line-height: 26px;
+    clear: both;
+    padding: 0 15px;
+    text-transform: uppercase;
 }
