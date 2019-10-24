@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>F-Pattent</title>
+    <link href="https://fonts.googleapis.com/css?family=Revalia&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background: #E5E5E5;
+        }
+        .container{
+            width: 700px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            background: white;
+        }
+        .title{
+            font-family: 'Revalia', cursive;
+            margin: 5px;
+        }
+        .line{
+            width: 100%;
+            height: 3px;
+            background: #0b0b0b;
+        }
+        .content{
+            display: flex;
+            flex-direction: row;
+        }
+        .left{
+            width: 60%;
+        }
+        .line1,.price{
+            font-size: 20px;
+            margin: 8px;
+        }
+        .price{
+            margin: 0px;
+            margin-top: 13px;
+        }
+        .line2{
+            display: flex;
+            flex-direction: row;
+        }
+        .line2 .checkbox{
+            font-size: 50px;
+            color: #22F500;
+            margin: auto 2px auto 15px;
+        }
+        .right{
+            margin: auto;
+            width: 40%;
+            height: 400px;
+            background-image: url("note-4x.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+        }
+        .containers {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            top: 12px;
+            left: 10px;
+            cursor: pointer;
+            font-size: 22px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .containers input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            height: 0;
+            width: 0;
+        }
+
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #C4C4C4;
+        }
+
+        /*.containers:hover input ~ .checkmark {*/
+        /*    background-color: #C4C4C4;*/
+        /*}*/
+
+        .containers checkmark {
+            background-color: #2196F3;
+        }
+
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        .containers input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        .containers .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid #00cc00;
+            border-width: 0 3px 3px 0;
+            -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
+        .button{
+            margin-top: 15px;
+            margin-bottom: 15px;
+            padding: 10px;
+            background: #22F500;
+            color: white;
+            border: 1px solid;
+            border-radius: 5px;
+            margin-left: 30%;
+        }
+        .tab-prop{
+            margin-top: 5px;
+            margin-left: 10px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <h4 class="title">Xiaomi Redmi 4X</h4>
+    <div class="line"></div>
+    <div class="content">
+        <div class="left">
+            <h5 class="line1">Sở hữ ngay chiếc điện thoại này chỉ với:</h5>
+            <div class="line2">
+                <label class="containers">
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                </label>
+                <p class="price">500.000/tháng trong vòng 12 tháng.</p>
+            </div>
+            <button class="button">Sở hữu ngay</button>
+            <div class="detail">
+                <strong style="margin-left: 5px">Chi tiết sản phẩm:</strong>
+                <table class="tab-prop table-striped" cellspacing="1" width="100%">
+                    <tbody>
+
+                    <tr itemprop="feature" itemscope="" itemtype="http://schema.org/ProductFeature" class="show">
+                        <td class="text"><label class="tips" itemprop="propertyName">Kích thước màn hình</label></td>
+                        <td class="data">6.4"
+                        </td>
+                    </tr>
+                    <tr itemprop="feature" itemscope="" itemtype="http://schema.org/ProductFeature" class="show">
+                        <td class="text"><label class="tips" itemprop="propertyName">Độ phân giải màn hình</label></td>
+                        <td class="data">HD+ (720
+                            x 1560 Pixels)
+                        </td>
+                    </tr>
+
+                    <tr itemprop="feature" itemscope="" itemtype="http://schema.org/ProductFeature" class="show">
+                        <td class="text"><label class="tips" itemprop="propertyName">Bộ nhớ trong</label></td>
+                        <td class="data">64GB
+                        </td>
+                    </tr>
+
+                    <tr itemprop="feature" itemscope="" itemtype="http://schema.org/ProductFeature" class="show">
+                        <td class="text"><label class="tips" itemprop="propertyName">Máy ảnh chính</label></td>
+                        <td class="data">Chính 25
+                            MP &amp; Phụ 8 MP, 5 MP
+                        </td>
+                    </tr>
+
+                    <tr itemprop="feature" itemscope="" itemtype="http://schema.org/ProductFeature" class="show">
+                        <td class="text"><label class="tips" itemprop="propertyName">Hệ điều hành</label></td>
+                        <td class="data">Android
+                            OS
+                        </td>
+                    </tr>
+
+                    <tr itemprop="feature" itemscope="" itemtype="http://schema.org/ProductFeature" class="show">
+                        <td class="text"><label class="tips" itemprop="propertyName">Chip xử lý (CPU)</label></td>
+                        <td class="data">Exynos
+                            7904 8 nhân 64-bit
+                        </td>
+                    </tr>
+                    <tr itemprop="feature" itemscope="" itemtype="http://schema.org/ProductFeature" class="show">
+                        <td class="text"><label class="tips" itemprop="propertyName">RAM</label></td>
+                        <td class="data">4GB
+                        </td>
+                    </tr>
+
+                    <tr itemprop="feature" itemscope="" itemtype="http://schema.org/ProductFeature" class="show">
+                        <td class="text"><label class="tips" itemprop="propertyName">Dung lượng pin (mAh)</label></td>
+                        <td class="data">4000
+                            mAh
+                        </td>
+                    </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="right">
+
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -128,7 +128,6 @@ body{
     background: black;
 }
 .tab-prop{
-    margin-left: 50px;
     margin-top: 10px;
 }
 .sale{
@@ -146,6 +145,17 @@ body{
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #EEEEEE;
+}
+.show{
+    margin-top: 10px;
+}
+.text{
+    margin-left: 50px;
+}
+.text,.data{
+    width: 50px;
+    margin-top: 10px;
+    border-bottom: 1px solid #3F3F3F;
 }
 .line{
     width: 100%;
