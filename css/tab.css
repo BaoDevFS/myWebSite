@@ -111,6 +111,9 @@
     background-color: #041230;
     margin-left: 0px !important;
 }
+.rqcontainer{
+
+}
 .rqcontainer .rqul{
      display: flex;
      flex-direction: column;
@@ -155,6 +158,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-top: 10px;
 }
 .fas{
     font-size: 20px;
@@ -239,6 +243,9 @@
   //  background-image: url("../lab/");
 }
 .fmf-pattent{
-    width: 400px;
+    width: 500px;
     height: 400px;
+}
+.rq{
+    height: 300px;
 }
