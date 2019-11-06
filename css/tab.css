@@ -227,8 +227,9 @@
 }
 .imgbyphone{
     width: 500px;
-    height: 500px;
+    height: 600px;
     background-image: url(../lab/byphone.PNG);
+    background-repeat: no-repeat;
 }
 .imgbyphonepheet{
     width: 400px;
@@ -244,7 +245,7 @@
 }
 .fmf-pattent{
     width: 500px;
-    height: 400px;
+    height: 420px;
 }
 .rq{
     height: 300px;
