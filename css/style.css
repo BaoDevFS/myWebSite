@@ -1907,7 +1907,7 @@ img.svg{
 	text-align: left;
 	background-color: #041230;
 	padding: 40px 0px;
-	
+	margin-top: 10px;
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */ 
